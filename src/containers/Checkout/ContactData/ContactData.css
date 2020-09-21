@@ -1,0 +1,18 @@
+.ContactData {
+	margin: auto;
+	text-align: center;
+	align-items: center;
+	border: 1px solid darkgrey;
+	box-sizing: border-box;
+	margin-bottom: 150px;
+}
+
+@media (min-width: 600px) {
+	.ContactData {
+		width: 500px;
+	}
+}
+
+input, options {
+	text-align:center;
+}

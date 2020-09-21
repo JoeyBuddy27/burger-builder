@@ -1,0 +1,16 @@
+.Checkout {
+	padding-bottom: 5px;
+}
+
+label {
+	text-align: left;
+}
+
+input, select {
+	border-radius: 5px;
+	
+}
+
+select {
+	text-align-last: center;
+}

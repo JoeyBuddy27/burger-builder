@@ -1,0 +1,67 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+
+
+.Button:disabled {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.Button:disabled2 {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.Disabled {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.Signup, .Cancel {
+    background-color: #DAD735;
+    cursor: pointer;
+    border: 1px solid #966909;
+    color: white;
+    padding: 15px;
+    box-shadow: 1px 1px 1px #966909;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Signup {
+    background-color: #5C9210;
+}
+
+.Cancel {
+     background-color: #944317;
+}
+
+.Cancel:hover {
+    opacity: 0.9;
+    border: 1px solid #966909;
+}
+
+.Login {
+    color: #5C9210;
+}
+
+.Signup:hover {
+background-color: #A0DB41;
+    border: 1px solid #966909;
+}

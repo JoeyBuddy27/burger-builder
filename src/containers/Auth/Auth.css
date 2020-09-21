@@ -1,0 +1,39 @@
+.Auth {
+	margin: auto;
+	text-align: center; 
+	padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+	.Auth {
+		width: 95%;
+	}
+}
+
+form {
+	width: 80%;
+	margin: auto;
+}
+
+input {
+	text-align: center;
+	border-radius: 5px;
+}
+
+.errorMessage {
+	color: #944317;
+}
+
+label {
+	text-align: left;
+}
+
+.errorMessage {
+	color: white;
+	background-color: #944317;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 90%;
+	margin: auto;
+}
+
